@@ -46,6 +46,21 @@ ul {
     line-height: 1.2;
     color: #2e2f42;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Header */
 
 .nav-list {
@@ -55,8 +70,18 @@ ul {
     color: #2e2f42;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
 .contacts {
     font-style: normal;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
 }
 
 /* Hero */
@@ -78,6 +103,12 @@ ul {
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
 }
 
 
@@ -93,7 +124,10 @@ ul {
 .team-list-item {
     text-align: center;
     background-color: #ffffff;
-}
+    /* Додав ширину картки, щоб її не розтягувало
+    на всю сторінку ;)) */
+    width: 264px; 
+}   
 
 /* Section Our portfolio */
 
