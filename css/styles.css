@@ -21,7 +21,7 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -34,7 +34,7 @@ ul {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
@@ -124,9 +124,6 @@ ul {
 .team-list-item {
     text-align: center;
     background-color: #ffffff;
-    /* Додав ширину картки, щоб її не розтягувало
-    на всю сторінку ;)) */
-    width: 264px; 
 }   
 
 /* Section Our portfolio */
