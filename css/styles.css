@@ -21,21 +21,20 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
-.logo-second-color {
-    color: #2e2f42;
+.logo-accent {
+    color: #4d5ae5;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+    line-height: 1.11111;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
@@ -45,12 +44,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.text {
-    font-size: 16px;
 }
 
 .visually-hidden {
@@ -106,7 +100,6 @@ ul {
 
 .button {
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #ffffff;
@@ -131,6 +124,9 @@ ul {
 .team-list-item {
     text-align: center;
     background-color: #ffffff;
+    /* Додав ширину картки, щоб її не розтягувало
+    на всю сторінку ;)) */
+    width: 264px; 
 }   
 
 /* Section Our portfolio */
